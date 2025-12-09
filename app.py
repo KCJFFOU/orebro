@@ -47,12 +47,12 @@ col1, col2 = st.columns(2)
 with col1:
     if fig1.exists():
         st.image(str(fig1), use_column_width=True)
-        st.caption("Figure 1. Case profiles (NOM–GEN–DAT).")
+        st.caption("Figure 1. Case profiles (NOM–GEN–DAT) of Eastern European states.")
 
 with col2:
     if fig2.exists():
         st.image(str(fig2), use_column_width=True)
-        st.caption("Figure 2. Case profiles (ACC–LOC–INST).")
+        st.caption("Figure 2. Case profiles (ACC–LOC–INST) of Eastern European states.")
 
 # 2. řada – stability + PCA
 col3, col4 = st.columns(2)
@@ -65,4 +65,5 @@ with col3:
 with col4:
     if fig4.exists():
         st.image(str(fig4), use_column_width=True)
-        st.caption("Figure 4. PCA of reliability classes (ellipses & centroids).")
+        st.caption("Figure 4. PCA of morphology indexes (average & SD).")
+
